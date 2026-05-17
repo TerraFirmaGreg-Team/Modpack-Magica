@@ -31,4 +31,7 @@ const registerTFMItems = (event) => {
 	event.create('tfm:spring_node')
 			.texture('tfm:item/spring_node')
 
+	event.create('tfm:celestial_bronze')
+			.texture('tfm:item/celestial_bronze')
+
 }
