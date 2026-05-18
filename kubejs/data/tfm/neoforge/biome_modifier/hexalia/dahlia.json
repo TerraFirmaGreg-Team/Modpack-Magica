@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#tfm:is_tfc_overworld",
+  "features": "tfm:hexalia/dahlia",
+  "step": "vegetal_decoration"
+}

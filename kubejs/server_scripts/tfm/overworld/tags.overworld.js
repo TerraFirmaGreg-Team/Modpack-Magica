@@ -173,6 +173,7 @@ function registerTFMItemTagsOverworld(event) {
 		'tfc:plant/yucca',
 		'tfc:plant/azalea',
 		'tfc:plant/buttercup',
+		'hexalia:lavender',
 	]
 	tfcFlowersTemperate.forEach(item => event.add('tfm:flowers_temperate', item))
 
