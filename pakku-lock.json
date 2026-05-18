@@ -2086,6 +2086,74 @@
             ]
         },
         {
+            "pakku_id": "3Od1MmpEak8OObHo",
+            "pakku_links": [
+                "U3EIpVbedxG6bB4P"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "enhanced-ai",
+                "modrinth": "enhanced-ai"
+            },
+            "name": {
+                "curseforge": "Enhanced AI",
+                "modrinth": "Enhanced AI"
+            },
+            "id": {
+                "curseforge": "515276",
+                "modrinth": "TDdoftI1"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "enhancedai-4.1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7965/819/enhancedai-4.1.0.0.jar",
+                    "id": "7965819",
+                    "parent_id": "515276",
+                    "hashes": {
+                        "sha1": "a0f1ec04743cc6e33eab6dda698c0b386fdd270e",
+                        "md5": "440c9fa90b84ac6cbfe0c3f9e74d9b85"
+                    },
+                    "required_dependencies": [
+                        "465109"
+                    ],
+                    "size": 1367366,
+                    "date_published": "2026-04-22T09:03:22.617Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "enhancedai-4.1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TDdoftI1/versions/538LxAV3/enhancedai-4.1.0.0.jar",
+                    "id": "538LxAV3",
+                    "parent_id": "TDdoftI1",
+                    "hashes": {
+                        "sha512": "ed003e0be771cd63dad2b54edb8ce966ed191e4607ae32bbf60cd9e6a7ea099f3cd781703a1796a717aba371b60d42be89be6ed308810bd4803cf285b3520501",
+                        "sha1": "a0f1ec04743cc6e33eab6dda698c0b386fdd270e"
+                    },
+                    "required_dependencies": [
+                        "USZyvOJq"
+                    ],
+                    "size": 1367366,
+                    "date_published": "2026-04-22T09:03:24.683191Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9L0LtHEBj8l7NXqv",
             "type": "MOD",
             "side": "CLIENT",
@@ -2205,6 +2273,79 @@
                     "required_dependencies": [],
                     "size": 44586,
                     "date_published": "2026-03-25T23:49:44.017455Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VpDNXj0wzHUGiGTd",
+            "pakku_links": [
+                "z2q6XUj0r6o5H8lk",
+                "VDYk9xjzUaLJklov"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "entityjs",
+                "modrinth": "entityjs"
+            },
+            "name": {
+                "curseforge": "EntityJS",
+                "modrinth": "EntityJS"
+            },
+            "id": {
+                "curseforge": "967617",
+                "modrinth": "OvPZ16yX"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "entityjs-1.4.5-1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7801/738/entityjs-1.4.5-1.21.jar",
+                    "id": "7801738",
+                    "parent_id": "967617",
+                    "hashes": {
+                        "sha1": "cd0c342a18faea79d6681f6cf743242904229ccf",
+                        "md5": "8ae30df808c36793772cae30c1c9f5f9"
+                    },
+                    "required_dependencies": [
+                        "388172",
+                        "238086"
+                    ],
+                    "size": 2322816,
+                    "date_published": "2026-03-23T21:38:03.383Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "entityjs-1.4.5-1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OvPZ16yX/versions/7yLp83Iz/entityjs-1.4.5-1.21.jar",
+                    "id": "7yLp83Iz",
+                    "parent_id": "OvPZ16yX",
+                    "hashes": {
+                        "sha512": "cc9e9fa9446f5e9b94be9f2a91af2a8a5213b8d66e98802f9c1cef8e31bb6d1f46fc1fb781451e15296ede2ac0e52c2e06414e12d74c653a712889efc6f0abbe",
+                        "sha1": "cd0c342a18faea79d6681f6cf743242904229ccf"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF",
+                        "8BmcQJ2H"
+                    ],
+                    "size": 2322816,
+                    "date_published": "2026-03-23T21:41:03.992Z"
                 }
             ]
         },
@@ -2343,6 +2484,67 @@
                     "required_dependencies": [],
                     "size": 270115,
                     "date_published": "2026-04-08T17:40:11.077Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "BER3ryglW9H0mrlq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "fdlib",
+                "modrinth": "fdlib"
+            },
+            "name": {
+                "curseforge": "FDLib",
+                "modrinth": "FDLib"
+            },
+            "id": {
+                "curseforge": "1271749",
+                "modrinth": "LcmGQfK2"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fdlib-1.0.9-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7844/741/fdlib-1.0.9-1.21.1.jar",
+                    "id": "7844741",
+                    "parent_id": "1271749",
+                    "hashes": {
+                        "sha1": "03a171d170b22a04e67d2cc7894ddddd8489a295",
+                        "md5": "f854cc69a7c6a240f5326c9fefa583c5"
+                    },
+                    "required_dependencies": [],
+                    "size": 973335,
+                    "date_published": "2026-03-30T08:37:33.033Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "fdlib-1.0.9-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/LcmGQfK2/versions/eGbrbFqp/fdlib-1.0.9-1.21.1.jar",
+                    "id": "eGbrbFqp",
+                    "parent_id": "LcmGQfK2",
+                    "hashes": {
+                        "sha512": "ab4c1d46190ce96468930d7db8340a42bf8f1848df116ef5ac08454a95f09d624d22e169fd074291cac0b791d0cec1520a497a7791db62550bf399dc8324aa9b",
+                        "sha1": "03a171d170b22a04e67d2cc7894ddddd8489a295"
+                    },
+                    "required_dependencies": [],
+                    "size": 973335,
+                    "date_published": "2026-04-15T12:01:16.923503Z"
                 }
             ]
         },
@@ -3332,6 +3534,67 @@
             ]
         },
         {
+            "pakku_id": "U3EIpVbedxG6bB4P",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "insanelib",
+                "modrinth": "insanelib"
+            },
+            "name": {
+                "curseforge": "InsaneLib",
+                "modrinth": "InsaneLib"
+            },
+            "id": {
+                "curseforge": "465109",
+                "modrinth": "USZyvOJq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "insanelib-2.4.15.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8033/378/insanelib-2.4.15.0.jar",
+                    "id": "8033378",
+                    "parent_id": "465109",
+                    "hashes": {
+                        "sha1": "12c91754fd1c8696f7b1e15385a7e5a89396a26c",
+                        "md5": "240597ea95d9b918b5089de16a1906bd"
+                    },
+                    "required_dependencies": [],
+                    "size": 509016,
+                    "date_published": "2026-05-03T16:40:20.470Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "insanelib-2.4.15.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/USZyvOJq/versions/71Gfk8bH/insanelib-2.4.15.0.jar",
+                    "id": "71Gfk8bH",
+                    "parent_id": "USZyvOJq",
+                    "hashes": {
+                        "sha512": "d83a8a6ef829cfedeee3effc36cbb96848338259e65bc91d0c5dcf85ce409aeaf5585824ad0b466a0b0c97740ee02a6d8ff5db7ce1842325a6987dd38f9731f6",
+                        "sha1": "12c91754fd1c8696f7b1e15385a7e5a89396a26c"
+                    },
+                    "required_dependencies": [],
+                    "size": 509016,
+                    "date_published": "2026-05-03T16:40:22.467449Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VFKXGGtCRAGmdgkh",
             "type": "MOD",
             "side": "CLIENT",
@@ -4028,6 +4291,49 @@
                     ],
                     "size": 92974,
                     "date_published": "2026-02-04T02:27:07.160Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VNvCF4k2UUVdGp0n",
+            "pakku_links": [
+                "I6RoHybbCuV0VpOK",
+                "VDYk9xjzUaLJklov"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-irons-spells"
+            },
+            "name": {
+                "curseforge": "KubeJS Iron's Spells"
+            },
+            "id": {
+                "curseforge": "980834"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "irons_spells_js-4.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7234/865/irons_spells_js-4.0.3.jar",
+                    "id": "7234865",
+                    "parent_id": "980834",
+                    "hashes": {
+                        "sha1": "0481395c5847e2920d1425e77833bef87df63139",
+                        "md5": "357989fbe3808757b47f83699a82484e"
+                    },
+                    "required_dependencies": [
+                        "855414",
+                        "238086"
+                    ],
+                    "size": 150121,
+                    "date_published": "2025-11-18T06:50:35.783Z"
                 }
             ]
         },
@@ -5318,6 +5624,151 @@
                     "required_dependencies": [],
                     "size": 1080389,
                     "date_published": "2025-10-23T08:58:48.131473Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZCad2ldP8lWkhXQI",
+            "pakku_links": [
+                "BER3ryglW9H0mrlq"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "qliphoth-awakening",
+                "modrinth": "qliphoth-awakening"
+            },
+            "name": {
+                "curseforge": "Qliphoth Awakening",
+                "modrinth": "Qliphoth Awakening"
+            },
+            "id": {
+                "curseforge": "1271707",
+                "modrinth": "7fqQYwaC"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fdbosses-3.1.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7653/113/fdbosses-3.1.0.3-1.21.1.jar",
+                    "id": "7653113",
+                    "parent_id": "1271707",
+                    "hashes": {
+                        "sha1": "3f4f903838cc2080ffd6b3a4baebc5c172f585dd",
+                        "md5": "7e27c8b0578ab39fa3396b312f1194e1"
+                    },
+                    "required_dependencies": [
+                        "1271749"
+                    ],
+                    "size": 25643812,
+                    "date_published": "2026-02-20T11:51:43.533Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "fdbosses-3.1.0.3-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/7fqQYwaC/versions/mubOR5lN/fdbosses-3.1.0.3-1.21.1.jar",
+                    "id": "mubOR5lN",
+                    "parent_id": "7fqQYwaC",
+                    "hashes": {
+                        "sha512": "db1b06ef19e757a397f2efe77f09e7f84f9b97bc5c14a0607dd2dde49b0aa453850cd8d130758d5e7bdcc73637c65bb13c501eb836410764741aa682151a87ca",
+                        "sha1": "3f4f903838cc2080ffd6b3a4baebc5c172f585dd"
+                    },
+                    "required_dependencies": [
+                        "LcmGQfK2"
+                    ],
+                    "size": 25643812,
+                    "date_published": "2026-02-25T09:51:01.926743Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "XkEqwWgymPwvwNM6",
+            "pakku_links": [
+                "ZCad2ldP8lWkhXQI"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "qliphoth-awakening-dimensions",
+                "modrinth": "qliphoth-awakening-dimensions"
+            },
+            "name": {
+                "curseforge": "Qliphoth Awakening Dimensions",
+                "modrinth": "qliphoth-awakening-dimensions"
+            },
+            "id": {
+                "curseforge": "1380154",
+                "modrinth": "7Q5lvNch"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "qliphoth_awakening_dimensions-neoforge1.21.1-1.1.1-mc1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7549/767/qliphoth_awakening_dimensions-neoforge1.21.1-1.1.1-mc1.21.1-neoforge.jar",
+                    "id": "7549767",
+                    "parent_id": "1380154",
+                    "hashes": {
+                        "sha1": "c3c27197708158366c11ba49a720e1f9b243a070",
+                        "md5": "1fc092255d265a8684119856f935d8d5"
+                    },
+                    "required_dependencies": [
+                        "1271707"
+                    ],
+                    "size": 34832,
+                    "date_published": "2026-01-30T08:52:42.213Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "qliphoth_awakening_dimensions-neoforge1.21.1-1.1.1-mc1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/7Q5lvNch/versions/htxGRnV7/qliphoth_awakening_dimensions-neoforge1.21.1-1.1.1-mc1.21.1-neoforge.jar",
+                    "id": "htxGRnV7",
+                    "parent_id": "7Q5lvNch",
+                    "hashes": {
+                        "sha512": "fef11dd9899ef47eca3eacfd9352bf64a6635af7e4ffc6b137318e375fd5fd45ed14c4a2c1f96053c2c2a9d485fa34c7203d684e4a11451098b83459ca5c4d62",
+                        "sha1": "c3c27197708158366c11ba49a720e1f9b243a070"
+                    },
+                    "required_dependencies": [],
+                    "size": 34832,
+                    "date_published": "2026-03-16T11:09:40.366589Z"
                 }
             ]
         },
