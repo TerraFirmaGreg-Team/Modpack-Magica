@@ -29,6 +29,8 @@ function registerTFMOverworldEntityTypeTags(event) {
 	event.add('tfg:slimes', 'minecraft:slime')
 	event.add('tfg:slimes', 'minecraft:magma_cube')
 
+	event.add('enhancedai:mobs/can_mine', 'born_in_chaos_v1:krampus')
+
 	// Tags for Totemic Integration
 
 	event.add('totemic:buffalo_dance_targets', 'tfc:cow')

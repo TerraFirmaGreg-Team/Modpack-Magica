@@ -467,5 +467,16 @@
 			x: 2.5d
 			y: 2.0d
 		}
+		{
+			dependencies: ["527E63123D25E52D"]
+			id: "4DD14C7038445503"
+			tasks: [{
+				id: "1F5E5C86DBF62A2E"
+				item: { components: { "tfc:heat": { } }, count: 1, id: "eidolon_repraised:pewter_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.75d
+		}
 	]
 }
