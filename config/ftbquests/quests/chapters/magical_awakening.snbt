@@ -296,7 +296,7 @@
 			id: "68FBFDBAF7B3AC9D"
 			tasks: [{
 				id: "1B381A36E54D575D"
-				item: { components: { "tfc:heat": { } }, count: 1, id: "tfc:metal/ingot/bronze" }
+				item: { count: 1, id: "tfm:celestial_bronze" }
 				type: "item"
 			}]
 			x: 5.5d

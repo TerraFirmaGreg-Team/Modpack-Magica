@@ -1,5 +1,8 @@
 LootJS.lootTables(event => {
-    const all = event.modifyLootTables(/.*/)
+
+    //const all = event.modifyLootTables(/.*/)
+
+    /*
 
     // Materials
     all.replaceItem("minecraft:coal", "tfc:ore/bituminous_coal")
@@ -65,4 +68,45 @@ LootJS.lootTables(event => {
 
     // Removing items
     all.removeItem('eidolon_repraised:pewter_ingot')
+
+    */
+
+    //#region Hexalia
+
+    event.getLootTable("hexalia:chests/herbalist_hut_chest")
+        .replaceItem("minecraft:amethyst_shard", "tfc:gem/amethyst")
+        .removeItem("hexalia:spirit_powder")
+        .removeItem("hexalia:siren_kelp")
+        .removeItem("hexalia:ghost_powder")
+        .createPool(pool => {
+            pool.rolls(1)
+            pool.when(conditions => conditions.randomChance(0.05))
+            pool.addEntry(
+                LootEntry.of("tfc:ore/poor_native_copper")
+                    .setCount([1, 8]))
+            pool.addEntry(
+                LootEntry.tag("tfm:crops")
+                    .setCount([1, 4]))
+        })
+
+    //#region Eidolon
+
+    event.getLootTable("eidolon_repraised:chests/catacomb_coffin")
+        .removeItem("eidolon_repraised:shadow_gem")
+        .removeItem("eidolon_repraised:gold_inlay")
+        .removeItem("eidolon_repraised:death_essence")
+
+    event.getLootTable("eidolon_repraised:chests/catacomb_basic")
+        .removeItem("eidolon_repraised:pewter_ingot")
+        .removeItem("eidolon_repraised:death_essence")
+        .removeItem("eidolon_repraised:silver_helmet")
+        .removeItem("eidolon_repraised:silver_chestplate")
+        .removeItem("eidolon_repraised:silver_leggings")
+        .removeItem("eidolon_repraised:silver_boots")
+
+    event.getLootTable("eidolon_repraised:chests/lab")
+        .removeItem("eidolon_repraised:pewter_ingot")
+        .removeItem("eidolon_repraised:fungus_sprouts")
+        .removeItem("eidolon_repraised:pewter_inlay")
+
 })

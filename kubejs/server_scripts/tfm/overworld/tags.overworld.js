@@ -226,6 +226,43 @@ function registerTFMItemTagsOverworld(event) {
 
 	event.add('tfc:mutated_clay_knapping', 'tfm:mutated_clay_ball')
 
+	// Seed TFC Tag
+
+	const tfcCrops = [
+		'tfc:seeds/cassava',
+		'tfc:seeds/green_bean',
+		'tfc:seeds/lentil',
+		'tfc:seeds/peanut',
+		'tfc:seeds/soybean',
+		'tfc:seeds/barley',
+		'tfc:seeds/oat',
+		'tfc:seeds/rye',
+		'tfc:seeds/maize',
+		'tfc:seeds/wheat',
+		'tfc:seeds/rice',
+		'tfc:seeds/beet',
+		'tfc:seeds/cabbage',
+		'tfc:seeds/carrot',
+		'tfc:seeds/garlic',
+		'tfc:seeds/onion',
+		'tfc:seeds/potato',
+		'tfc:seeds/squash',
+		'tfc:seeds/tomato',
+		'tfc:seeds/red_bell_pepper',
+		'tfc:seeds/yellow_bell_pepper',
+		'tfc:seeds/pumpkin',
+		'tfc:seeds/melon',
+		'tfc:seeds/canola',
+		'tfc:seeds/radish',
+		'tfc:seeds/alfalfa',
+		'tfc:seeds/jute',
+		'tfc:seeds/papyrus',
+		'tfc:seeds/sugarcane',
+		'firmalife:seeds/red_grape',
+		'firmalife:seeds/white_grape'
+	]
+	tfcCrops.forEach(item => event.add('tfm:crops', item))
+
 }
 
 	//#region Block Tag

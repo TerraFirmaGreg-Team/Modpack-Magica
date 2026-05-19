@@ -617,9 +617,10 @@
             { "type": "ez_supervisor:day_time", "min": 13000, "max": 23000 },
             { "type": "ez_supervisor:see_sky", "can_see": true },
             { "type": "ez_supervisor:height_filter", "min": 70, "max": 200 },
-            { "type": "tfc:season", "season": ["fall", "winter"] },
+            { "type": "tfc:season", "season": ["winter"] },
+            { "type": "tfc:climate", "climate": { "max_temperature": -10, "max_groundwater": 50 } },
             { "type": "ez_supervisor:tag", "tag": "tfm:spawn_blocks_land" },
-            { "type": "ez_supervisor:count_nearby", "distance": 128, "max_count": 1 }
+            { "type": "ez_supervisor:count_nearby", "distance": 256, "max_count": 1 }
         ]
     },
     {
