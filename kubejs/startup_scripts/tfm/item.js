@@ -13,6 +13,9 @@ const registerTFMItems = (event) => {
 	event.create('tfm:wood_iron')
 			.texture('tfm:item/ironwood_ingot')
 
+	event.create('tfm:wood_bloom')
+			.texture('tfm:item/ironwood_bloom')
+			
 	event.create('tfm:mutated_clay_ball')
 			//.texture('tfm:item/ironwood_ingot')
 
@@ -33,5 +36,8 @@ const registerTFMItems = (event) => {
 
 	event.create('tfm:celestial_bronze')
 			.texture('tfm:item/celestial_bronze')
+
+	event.create('tfm:mundane_bronze')
+			.texture('tfm:item/mundane_bronze')
 
 }
