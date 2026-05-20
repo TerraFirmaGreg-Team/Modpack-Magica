@@ -11,23 +11,70 @@ function registerTFMRecipes(event) {
         .useDurability()
 
     event.recipes.tfc.bloomery(
-        'tfm:wood_iron',
+        'tfm:wood_bloom',
         Item.of('tfc:powder/flux', 5),
         Fluid.of('tfc:metal/cast_iron', 300),
         10500
     )
 
     event.recipes.tfc.bloomery(
-        'tfm:wood_iron',
+        'tfm:wood_bloom',
         Ingredient.of('#minecraft:logs', 5),
         Fluid.of('tfc:metal/copper', 300),
         200
     )
 
+    event.recipes.tfc.alloy(
+        'tfm:metal/mundane_bronze',
+        [
+            {
+                fluid: "tfc:metal/bronze",
+                min: 0.2,
+                max: 0.4
+            },
+            {
+                fluid: "tfc:metal/black_bronze",
+                min: 0.2,
+                max: 0.4
+            },
+            {
+                fluid: "tfc:metal/bismuth_bronze",
+                min: 0.2,
+                max: 0.4
+            }
+        ]
+    )
+
+    event.recipes.tfc.casting(
+        'tfm:mundane_bronze',
+        'tfc:ceramic/ingot_mold',
+        Fluid.of('tfm:metal/mundane_bronze', 100),
+        0.1
+    )
+
+    event.recipes.tfc.casting(
+        'tfm:mundane_bronze',
+        'tfc:ceramic/fire_ingot_mold',
+        Fluid.of('tfm:metal/mundane_bronze', 100),
+        0
+    )
+
+    event.custom({
+        "type": "hexalia:ritual_brazier",
+        "input": { "item": 'tfm:mundane_bronze' },
+        "output": 'tfm:celestial_bronze'
+    }).id("tfm:celestial_bronze_from_brazier")
+
+    event.recipes.tfc.heating(
+        'tfm:mundane_bronze',
+        1400
+    )
+    .fluidOutput(Fluid.of('tfm:metal/mundane_bronze', 100))
+
     // Lead Eidolon
 
-     event.recipes.tfc.heating(
-        'eidolon_repraised:lead_ingot[tfc:heat={}]',
+    event.recipes.tfc.heating(
+        'eidolon_repraised:lead_ingot',
         1200
     )
     .fluidOutput(Fluid.of('tfm:metal/lead', 100))

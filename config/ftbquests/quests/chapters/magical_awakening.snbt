@@ -299,7 +299,7 @@
 				item: { count: 1, id: "tfm:celestial_bronze" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -5.0d
 		}
 		{

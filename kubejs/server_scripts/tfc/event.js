@@ -7,7 +7,7 @@ function registerTFCEvents(event) {
 
     event.heat({
             ingredient: 'eidolon_repraised:lead_ingot',
-            heatCapacity: 0.5
+            heatCapacity: 2.1
         }, 'tfm:lead_ingot')
 
 
@@ -24,14 +24,19 @@ function registerTFCEvents(event) {
 
     event.heat({
             ingredient: 'eidolon_repraised:pewter_ingot',
-            heatCapacity: 0.5
+            heatCapacity: 2.5
         }, 'tfm:pewter_ingot')
+
+    event.heat({
+            ingredient: 'tfm:mundane_bronze',
+            heatCapacity: 2.5
+        }, 'tfm:mundane_bronze')
 
 
     event.fluidHeat({
         fluid: 'tfm:wood_iron',
         meltTemperature: 1550,
-        specificHeatCapacity: 0.023
+        specificHeatCapacity: 0.008571429
     }, 'tfm:wood_iron')
 
     event.knappingType({

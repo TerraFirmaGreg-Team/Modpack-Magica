@@ -4,9 +4,25 @@ const $SoundActions = Java.loadClass('net.neoforged.neoforge.common.SoundActions
 const $SoundEvents = Java.loadClass('net.minecraft.sounds.SoundEvents')
 const $ParticleTypes = Java.loadClass('net.minecraft.core.particles.ParticleTypes')
 
+	//#region Metal
+
 	event.create('tfm:wood_iron')
 		.stillTexture('tfm:block/fluids/fluid.wood_iron')
         .flowingTexture('tfm:block/fluids/fluid.wood_iron')
+
+	event.create('tfm:metal/mundane_bronze', 'thick')
+		.tint(0x191F28)
+		//.noBlock()
+		.tag('c:molten_mundane_bronze')
+		.tag('tfchotornot:hot_whitelist')
+		.tag('tfc:usable_in_ingot_mold')
+		.tag('tfc:molten_metals')
+		.tag('tfchotornot:fluid_whitelist')
+		.type(type => type
+			.renderType(3)
+			)
+
+	//#region Resin
 
 	event.create('tfm:metal/lead', 'thick')
 		.tint(0x4f7cc4)
