@@ -189,6 +189,9 @@
   "corpse": {
     "corpse": true
   },
+  "neovitae": {
+    "block_info": true
+  },
   "afc": {
     "tap": true
   },

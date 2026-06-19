@@ -1,0 +1,43 @@
+{
+  "type": "witchery:ritual",
+  "altarPower": 1500,
+  "altarPowerPerTick": 0,
+  "blockMapping": {
+    "G": "witchery:golden_chalk",
+    "M": "witchery:ritual_chalk"
+  },
+  "commands": [],
+  "conditions": {
+    "celestialConditions": [],
+    "requireCat": false,
+    "weather": [],
+    "ritualData": {
+      "radius": 3,
+      "maxItems": 16
+    }
+  },
+  "covenCount": 0,
+  "floatingItemOutput": false,
+  "inputItems": [
+    { "id": "minecraft:hay_block" }
+  ],
+  "inputEntities": [],
+  "isInfinite": false,
+  "outputItems": [],
+  "outputEntities": [],
+  "pattern": [
+    "___MMMMM___",
+    "__M_____M__",
+    "_M_______M_",
+    "M_________M",
+    "M_________M",
+    "M____G____M",
+    "M_________M",
+    "M_________M",
+    "_M_______M_",
+    "__M_____M__",
+    "___MMMMM___"
+  ],
+  "ticks": 100,
+  "ritual": { "id": "tfm:preserve_food" }
+}
